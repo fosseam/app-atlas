@@ -1,0 +1,94 @@
+
+┌────────────────────────────┐    ┌────────────────────────────┐
+│        Allgemeines         │    │         Plattform          │
+├────────────────────────────┤    ├────────────────────────────┤
+│ • Basics                   │    │ • Architektur & Technik    │
+│ • Organisation             │    │ • Interaktion & Oberfläche │
+│                            │    │ • Lizenzmodell             │
+└────────────────────────────┘    └────────────────────────────┘
+
+┌────────────────────────────┐    ┌────────────────────────────┐
+│          Katalog           │    │          Community         │
+├────────────────────────────┤    ├────────────────────────────┤
+│ • Qualität & Sicherheit    │    │ • Größe & Aktivität        │
+│ • Metadaten & Quellen      │    │ • Beiträge & Zugang        │
+│                            │    │ • Kanäle & Kommunikation   │
+└────────────────────────────┘    └────────────────────────────┘
+
+
+
+
+Allgemeines
+├── Basics
+│   1   Name                  [Str]   Projekt-/Plattformname
+│   2   Release               [Str]   Letzte veröffentlichte Version
+│   3   Release-Datum         [Date]  Datum des letzten Releases
+│   4   Zielgruppe            [Str]   Zielpublikum bzw. Nutzertypen
+│   5   Technologie-Stack     [List]  Kerntechnologien & Frameworks
+│   6   Homepage              [URL]   Offizielle Projektseite
+├── Organisation
+│   7   Organisation           [Str]   Träger oder GitHub-Org
+│   8   Kontakt / Head         [Str]   Hauptentwickler oder Ansprechperson
+│   9   Sitz                   [Str]   Land oder Region (sofern bekannt)
+│  10   Governance-Modell      [Txt]   Struktur der Projektsteuerung
+
+Plattform
+├── Architektur & Technik
+│  11   Architektur            [Str]   Systemstruktur, z. B. Swarm
+│  12   Lizenzmodell           [Str]   Open-Source-Lizenztyp
+│  13   App-Isolierung         [Y/N]   Laufen Apps getrennt (z. B. Container)?
+│  14   Update-Mechanismus     [Txt]   Wie werden Updates gehandhabt?
+│  15   Volume-/Storage        [Txt]   Umgang mit Daten-Volumes
+│  16   Netzwerk               [Txt]   Netzwerkstack, Reverse Proxies etc.
+│  17   Dependency-Handling    [Txt]   Behandlung von App-Abhängigkeiten
+│  18   Backup-Option          [Txt]   Backup-Möglichkeiten (nativ/extern)
+├── Interaktion & Oberfläche
+│  19   Web-GUI                [Y/N]   Gibt es eine grafische Oberfläche?
+│  20   CLI verfügbar          [Y/N]   Kommandozeilentool vorhanden?
+│  21   API verfügbar          [Y/N]   Programmierschnittstelle nutzbar?
+│  22   Benutzerverwaltung     [Y/N]   Können Nutzer verwaltet werden?
+│  23   Auth/SSO               [Y/N]   Unterstützung für SSO/OIDC etc.?
+│  24   Mehrsprachigkeit       [Y/N]   Gibt es UI-Sprachenwahl?
+
+Katalog
+├── Qualität & Sicherheit
+│  25   QA-Rating              [1–8]   Qualitätseinstufung (z. B. YNH-System)
+│  26   CVE-Handling           [Y/N]   Prozesse zur Behandlung von CVEs
+│  27   Security Advisory      [Y/N]   Gibt es Security-Warnungen?
+│  28   Security-Update        [Y/N]   Wird ein Datum für Sec-Updates gepflegt?
+│  29   CI/CD / Tests          [Y/N]   Besteht ein Test-/CI-System?
+│  30   Signierte Apps         [Y/N]   Sind Apps/Container signiert?
+│  31   Audit-Verfahren        [List]  Doku zu externen Prüfprozessen
+│  32   Maintainer sichtbar?   [Y/N]   Werden App-Maintainer genannt?
+├── Metadaten & Quellen
+│  33   Anzahl der Apps        [#]     Wie viele Apps umfasst der Katalog?
+│  34   Format der App-Def.    [List]  YAML, JSON, etc.
+│  35   Kategorien/Taxonomie   [Y/N]   Ist der Katalog strukturiert?
+│  36   App-Vorschlagsprozess  [Txt]   Wie schlägt man neue Apps vor?
+│  37   Screenshots/Icon-Supp. [Y/N]   Unterstützt visuelle Vorschau?
+│  38   Plattform-Repo         [URL]   Link zum Hauptcode
+│  39   App-Katalog-Quelle     [URL]   Quelle der App-Definitionen
+│  40   API-/Entwickler-Doku   [URL]   Technische Dokumentation
+
+Community
+├── Größe & Aktivität
+│  41   GitHub Stars           [#]     Projektstars auf GitHub
+│  42   GitHub Forks           [#]     Projektforks auf GitHub
+│  43   GitHub Contributors    [#]     Mitwirkende auf GitHub
+│  44   GitHub Releases        [#]     Anzahl veröffentlichter Releases
+│  45   First Release          [Date]  Erstes offizielles Release
+├── Beiträge & Zugang
+│  46   Contributor-Guide      [Y/N]   Gibt es Mitmach-Anleitungen?
+│  47   Rollen-/Rechtekonzept  [Txt]   Wie ist Mitwirkung strukturiert?
+├── Kanäle & Kommunikation
+│  48   Community-Kanäle       [List]  GitHub, Forum, Matrix etc.
+│  49   Governance-Transparenz [Y/N]   Werden Entscheidungen offengelegt?
+
+
+
+
+
+
+
+
+
